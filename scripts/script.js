@@ -31,7 +31,3 @@ function backup(){
 function restore(){
 
 }
-// create new template
-// display forms and take in user input
-//check submission
-// backup template
