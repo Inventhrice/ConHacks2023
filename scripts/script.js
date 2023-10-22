@@ -23,11 +23,3 @@ function folder(){
 function checkSubmission(){
 
 }
-
-function backup(){
-
-}
-
-function restore(){
-
-}
