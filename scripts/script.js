@@ -1,15 +1,12 @@
-let test = {"templateName":"test", "wordCount":0, "pageCount":0, "numFiles":[0], "fileExtensions":[""], "notFolder":[""]};
-window.localStorage.setItem(test.templateName, JSON.stringify(test));
-let get = JSON.parse(localStorage.getItem(test.templateName));
-console.log(get.templateName);
-// load in templates
+
 function loadTemplates(templateName){
-    
+    let template = {"templateName":"Steve Hendriske", "fileExtensions":[".pdf"], "!fileExtensions":[".zip"]};
+    window.localStorage.setItem(template.templateName, JSON.stringify(template));
     
 }
 
-function createTemplate(){
-
+function getTemplate(){
+    let get = JSON.parse(localStorage.getItem(test.templateName));
 }
 
 function criteria(){
